@@ -1,0 +1,19 @@
+package Oops;
+
+class Human
+{
+	 int age;
+	String name;
+}
+public class BeforeEncapsulation {
+	public static void main(String[] args) {
+		Human obj=new Human();
+		obj.age=25;
+		obj.name="Rohith";
+		obj.age=30;
+		obj.name="leela";
+		System.out.println("Age is "  +obj.age);
+		System.out.println("Name is " +obj.name);
+	}
+}
+
